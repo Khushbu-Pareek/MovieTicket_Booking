@@ -1,0 +1,186 @@
+.bookingWindow {
+    background-color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    display: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 550px;
+    left: 200px;
+    position: fixed;
+    top: 20px;
+    width: 900px;
+    z-index: 200000000;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+#bookingHeader {
+    height: 15%;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+#bookingDetails {
+    height: 10%;
+    margin-left: 12%;
+    top: 10px;
+    width: 76%;
+}
+#bookCheckout {
+    height: 10%;
+}
+#closeWindow {
+    background-color: purple;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFF;
+    cursor: pointer;
+    height: 30px;
+    margin-right: -4px;
+    margin-top: -6px;
+    text-align: center;
+    width: 30px;
+}
+#btnCheckout {
+    background-color: purple;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFF;
+    height: 80%;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: center;
+    width: 100px;
+}
+.btnEnabled {
+    cursor: pointer;
+    opacity: 100%;
+}
+.btnDisabled {
+    cursor: no-drop;
+    opacity: 0.4;
+}
+.moviePoster {
+    height: 85%;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 60px;
+}
+#movieName {
+    border-bottom: 1px solid grey;
+    color: purple;
+    font-family: ThreeDHighlight;
+    font-size: 40px;
+    font-weight: 700;
+    height: 72%;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 700px;
+}
+.selection {
+    color: #708090;
+    font-weight: 700;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 140px;
+}
+#defaultSeatMap {
+    height: 100%;
+    width: 100%;
+}
+.selectList {
+    -moz-appearance: menulist;
+    -moz-border-radius: 4px;
+    -moz-box-shadow: 0 4px 0 #800080, 0 -1px purple inset;
+    -webkit-appearance: menulist;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 4px 0 #800080, 0 -1px purple inset;
+    appearance: menulist;
+    background: #f8f8f8;
+    border: 2px;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #800080, 0 -1px purple inset;
+    color: #888;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+    padding: 3px;
+    width: 80px;
+}
+#screenText {
+    color: grey;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.dropDown {
+    border: 2px solid purple;
+    border-radius: 5px;
+    height: 65.5%;
+    width: 80px;
+}
+#bookingSeatMap {
+    background-color: #F5F5F0;
+    border: 2px solid #D4D4CA;
+    border-radius: 5px;
+    display: inline-block;
+    height: 350px;
+    margin-left: 120px;
+    overflow-x: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    width: 580px;
+}
+#bookingSeatMapDisabled {
+    border: 2px solid #D4D4CA;
+    border-radius: 5px;
+    height: 350px;
+    margin-left: 120px;
+    width: 660px;
+}
+.classItem {
+    display: inline-block;
+    margin-left: auto;
+    text-align: left;
+    width: auto;
+}
+.classType {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.seats {
+    display: table;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.seatingRow {
+    display: table-row;
+    height: 30px;
+    width: auto;
+}
+.seatName {
+    text-align: right;
+    width: 30px;
+}
+.seatingArrangement {
+    display: inline-block;
+    margin-left: 15px;
+    width: auto;
+}
+.seatItem {
+    height: 25px;
+    width: 25px;
+}
+.hoverMouseClickable {
+    cursor: pointer;
+}
+.hoverMouseNonClickable {
+    cursor: none;
+}

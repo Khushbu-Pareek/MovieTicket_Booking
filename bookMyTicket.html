@@ -1,0 +1,47 @@
+<html>
+   <head>
+      <title>CD Task 2</title>
+      <link href="css/myBuyTickets.css" rel="stylesheet" type="text/css">
+   </head>
+   <body style="background-color:gray;">
+      <button onclick="bookMyTicket()">Book Ticket!</button>
+      <div id="bookingWindow" style="" class="bookingWindow">
+         <div id="bookingHeader">
+            <div class"left">
+               <img src="images/3_idiots_poster.jpg" alt="No image" class="moviePoster left" />
+               <span id="movieName" class="left">3 idiots</span>
+            </div>
+            <div id="closeWindow" class="right" onclick="closeBookingWindow()">&#x2717;</div>
+         </div>
+         <div id="bookingDetails">
+            <div class="left selection" id="classDropDown">
+               Class: 
+               <div class="right dropDown">
+                  <select id="classSelect" class="selectList">
+                  </select>
+               </div>
+            </div>
+            <div class="left selection" id="seatDropDown">
+               Seats: 
+               <div class="right dropDown" >
+                  <select id="seatCount" class="selectList" onchange="selectSeats(this)" >
+                     <option value="0" selected="selected" >0</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div id="bookingSeatMap"></div>
+         <div id="bookingSeatMapDisabled"><img src="images/disableBookingSeats.jpg" style="height: 350px; width: 660px;" /></div>
+         <div id="bookCheckout">
+            <div id="screenText" class="left">SCREEN SIDE</div>
+            <div id="btnCheckout" class="right btnDisabled" onclick="bookFinalSeats()">Book it!</div>
+         </div>
+      </div>
+   </body>
+   <script src="jquery-2.1.1.min.js"></script>
+   <script src="js/task2.js"></script>
+</html>
